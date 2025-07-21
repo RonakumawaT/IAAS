@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Translate</title>
+  <style>
+    body { font-family: Arial; padding: 10px; width: 300px; }
+    textarea, select, button { width: 100%; margin: 5px 0; }
+    #output { margin-top: 10px; font-weight: bold; color: green; }
+  </style>
+</head>
+<body>
+  <h3>AI Translator</h3>
+  <textarea id="text" rows="3" placeholder="Enter text..."></textarea>
+  <select id="language">
+    <option value="Hindi">Hindi</option>
+    <option value="Spanish">Spanish</option>
+    <option value="French">French</option>
+    <option value="Chinese">Chinese</option>
+  </select>
+  <button id="translate">Translate</button>
+  <div id="output"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
